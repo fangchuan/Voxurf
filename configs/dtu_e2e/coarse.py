@@ -14,7 +14,8 @@ white_list = [24, 40, 110]
 black_list = [37, 55, 63, 65, 69, 83, 97, 105, 106, 114, 118, 122]
 
 data = dict(
-    datadir=os.path.join('.', 'data', 'DTU', 'dtu_scan'),
+    # datadir=os.path.join('.', 'data', 'DTU', 'dtu_scan'),
+    datadir=os.path.join('/dataset/dtu/data_DTU', 'dtu_scan'),
     dataset_type='dtu',
     inverse_y=True,
     white_bkgd= False
